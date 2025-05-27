@@ -1,0 +1,62 @@
+/*-----------------------------------*\
+  #APP LAYOUT STYLES (App.module.css)
+\*-----------------------------------*/
+
+.main {
+  background: var(--neutral-3);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-inline: auto;
+  border-radius: var(--border-radius-20px);
+  font-size: var(--fs-5);
+  box-shadow: 0 20px 50px hsla(0, 0%, 0%, 0.5); /* Missing shadow */
+  max-width: 700px;
+}
+
+.main-content {
+  background: var(--eerie-black);
+  border-radius: var(--border-radius-20px);
+  margin: 15px;
+  overflow: hidden;
+}
+
+
+/*-----------------------------------*\
+  #RESPONSIVE
+\*-----------------------------------*/
+
+/**
+ * responsive for large than 576px screen
+ */
+@media (min-width: 576px) {
+  .main {
+    max-width: 700px;
+  }
+}
+
+/**
+ * responsive for large than 768px screen
+ */
+@media (min-width: 768px) {
+  .main {
+    max-width: 1300px;
+  }
+}
+
+/**
+ * responsive for large than 1024px screen
+ */
+@media (min-width: 1024px) {
+  .main-content {
+    min-width: 75%;
+    width: 75%;
+    margin: 0; /* Override earlier margin for smaller screens */
+  }
+}
+
+/**
+ * responsive for large than 1250px screen
+ */
+@media (min-width: 1250px) {
+  /* No specific App.module.css styles here, but depends on global main layout */
+}
