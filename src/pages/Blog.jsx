@@ -62,7 +62,7 @@ function Blog() {
         <ul className="blog-posts-list">
           {blogPosts.map(post => (
             <li className="blog-post-item" key={post.id}>
-              <a href="#">
+              {/* <a href="#"> */}
                 <figure className="blog-banner-box">
                   <img src={post.img} alt={post.title} loading="lazy" />
                 </figure>
@@ -75,7 +75,7 @@ function Blog() {
                   <h3 className="h3 blog-item-title">{post.title}</h3>
                   <p className="blog-text">{post.text}</p>
                 </div>
-              </a>
+              {/* </a> */}
             </li>
           ))}
         </ul>

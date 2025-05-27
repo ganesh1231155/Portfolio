@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 // Assuming ionicons are globally available or handled via a React icon library
 // Example: import { IoMailOutline, IoPhonePortraitOutline, IoCalendarOutline, IoLocationOutline, IoLogoFacebook, IoLogoTwitter, IoLogoInstagram, IoChevronDown } from 'react-icons/io5';
 

@@ -68,7 +68,7 @@ function Portfolio() {
         <ul className="project-list">
           {filteredProjects.map(project => (
             <li className="project-item active" data-category={project.category} key={project.id}>
-              <a href="#">
+              {/* <a href="#"> */}
                 <figure className="project-img">
                   <div className="project-item-icon-box">
                     {/* <ion-icon name="eye-outline"></ion-icon> */}
@@ -78,7 +78,7 @@ function Portfolio() {
                 </figure>
                 <h3 className="project-title">{project.title}</h3>
                 <p className="project-category">{project.category}</p>
-              </a>
+              {/* </a> */}
             </li>
           ))}
         </ul>

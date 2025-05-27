@@ -28,11 +28,11 @@ function App() {
       <div className="main-content">
         <Navbar activePage={activePage} onNavLinkClick={handleNavLinkClick} />
         {/* <Resume/> */}
-        {activePage == 'about' && <About/>}
-        {activePage == 'resume' && <Resume/>}
-        {activePage == 'portfolio' && <Portfolio />}
-        {activePage == 'blog' && <Blog />}
-        {activePage == 'contact' && <Contact />}
+        {activePage === 'about' && <About/>}
+        {activePage === 'resume' && <Resume/>}
+        {activePage === 'portfolio' && <Portfolio />}
+        {activePage === 'blog' && <Blog />}
+        {activePage === 'contact' && <Contact />}
       </div>
     </main>
   );

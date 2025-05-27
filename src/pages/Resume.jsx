@@ -1,5 +1,5 @@
 import React from 'react';
-import { IoBookOutline } from 'react-icons/io5';
+// import { IoBookOutline } from 'react-icons/io5';
 
 function Resume() {
   const skillsData = [
